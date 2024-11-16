@@ -18,10 +18,10 @@ Games in Game Depot can vary in genre, complexity and gameplay mechanics. They c
 
 ![cover](https://cdn.dorahacks.io/static/files/19334bc1d48965a96bcd9a94cb2b43be.png)
 What Is a Game in GameDepot?
-This is Telegram mini App that runs on top of the Telegram Chat app.
-It can open directly from a Telegram chat, group, or /channel.
-It can be shared directly from the game interface.
-If you already have a game built on HTML5 or WebGL (Unity, Phaser, PixiJS, BabylonJS, Cocos2d, and others), you can easily adapt it to work on our platform.
+* This is Telegram mini App that runs on top of the Telegram Chat app.
+* It can open directly from a Telegram chat, group, or /channel.
+* It can be shared directly from the game interface.
+* If you already have a game built on HTML5 or WebGL (Unity, Phaser, PixiJS, BabylonJS, Cocos2d, and others), you can easily adapt it to work on our platform.
 
 # Full Documentation
 
