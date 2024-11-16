@@ -14,7 +14,7 @@ GameDepot is a TMA-native (Telegram mini App native) Instant web3 game release p
 
 Games in PlayDeck can vary in genre, complexity, and gameplay mechanics. They can range from simple arcade-style games to more intricate multiplayer experiences. PlayDeck games are lightweight and accessible, and users can play them seamlessly within the Telegram app without downloads or installation.
 
-![cover](https://ipfs.questbook.app:8080/ipfs/Qme2YfASqY1KjXfb3FPC5RUjo5gqiEpiEfardRFtd8xgAR)
+![cover](![poster on github1.png](https://cdn.dorahacks.io/static/files/19334bc1d48965a96bcd9a94cb2b43be.png)
 What Is a Game in PlayDeck?
 It is a web-based application inside Telegram.
 It can open directly from a Telegram chat, group, or /channel.
