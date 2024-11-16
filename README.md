@@ -1,21 +1,20 @@
 # Introduction
 
 
-* [What Is PlayDeck?](#what-is-playdeck)
+* [What Is GameDepot?](#what-is-GameDepot)
 * [Full Documentation](#full-documentation)
 * [Quick Overview](#some-methods-are-mandatory-to-be-implemented)
 * [Contact Us](#contact-us)
 
   
 
-**What Is PlayDeck?**
+**What Is GameDepot?**
 
-PlayDeck is a Telegram-native gaming marketplace that empowers game developers to showcase their games on one of the fastest-growing social platforms. With PlayDeck toolkit solutions, you can launch Web2 and Web3 games on Telegram and use all the benefits of social and referral mechanics to boost traffic and revenue.
+GameDepot is a TMA-native (Telegram mini App native) Instant web3 game release platform that empowers game developers to publishing and showcase their games on one of the fastest-growing social platforms. With GameDepot toolkit solutions, you can launch Web2 and Web3 games on Telegram and use all the benefits of social and referral mechanics to boost traffic and revenue.
 
 Games in PlayDeck can vary in genre, complexity, and gameplay mechanics. They can range from simple arcade-style games to more intricate multiplayer experiences. PlayDeck games are lightweight and accessible, and users can play them seamlessly within the Telegram app without downloads or installation.
 
-![cover](https://pd-static.playdeck.io/static/doc-cover.jpg)
-
+![cover](https://ipfs.questbook.app:8080/ipfs/Qme2YfASqY1KjXfb3FPC5RUjo5gqiEpiEfardRFtd8xgAR)
 What Is a Game in PlayDeck?
 It is a web-based application inside Telegram.
 It can open directly from a Telegram chat, group, or /channel.
