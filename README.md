@@ -8,15 +8,17 @@
 
   
 
-**What Is GameDepot?**
+**What is GameDepot?**
 
-GameDepot is a TMA-native (Telegram mini App native) Instant web3 game release platform that empowers game developers to publishing and showcase their games on one of the fastest-growing social platforms. With GameDepot toolkit solutions, you can launch Web2 and Web3 games on Telegram and use all the benefits of social and referral mechanics to boost traffic and revenue.
+The goal is to provide a **web3 game infrastructure** based on the TON blockchain including code, smart contracts, libraries, APIs and SDKs so that the web3 game developer community can build codeless (no code required) game applications and release games as quickly as possible for the Telegram user community in general and the TON blockchain community in particular.
 
-Games in PlayDeck can vary in genre, complexity, and gameplay mechanics. They can range from simple arcade-style games to more intricate multiplayer experiences. PlayDeck games are lightweight and accessible, and users can play them seamlessly within the Telegram app without downloads or installation.
+GameDepot is a native instant web3 game publishing platform TMA (native Telegram mini App) that helps game developers publish and showcase their games on one of the fastest growing social platforms. With GameDepot toolkit solutions, you can launch Web2 and Web3 games on Telegram and use all the benefits of social and referral mechanisms to increase traffic and revenue.
+
+Games in Game Depot can vary in genre, complexity and gameplay mechanics. They can range from simple arcade-style games to more complex multiplayer experiences. GameDepot games are lightweight and accessible, and users can play them seamlessly within the Telegram app without any downloads or installations.
 
 ![cover](https://cdn.dorahacks.io/static/files/19334bc1d48965a96bcd9a94cb2b43be.png)
-What Is a Game in PlayDeck?
-It is a web-based application inside Telegram.
+What Is a Game in GameDepot?
+This is Telegram mini App that runs on top of the Telegram Chat app.
 It can open directly from a Telegram chat, group, or /channel.
 It can be shared directly from the game interface.
 If you already have a game built on HTML5 or WebGL (Unity, Phaser, PixiJS, BabylonJS, Cocos2d, and others), you can easily adapt it to work on our platform.
