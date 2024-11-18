@@ -1,7 +1,7 @@
 # Introduction
 
 
-* [What Is GameDepot?](#what-is-GameDepot)
+* [What Is GameDepot?](#what-is-gamedepot)
 * [Full Documentation](#full-documentation)
 * [Quick Overview](#some-methods-are-mandatory-to-be-implemented)
 * [Contact Us](#contact-us)
@@ -108,5 +108,5 @@ You can find usage examples and detailed information on each method in [our guid
 - Website: [gamedepot.meme](https://gamedepot.meme)
 - Our game platform: [GameDepot](https://t.me/gamedepotmeme)
 
-[Going on TOP](#what-is-GameDepot)
+[Going on TOP](#what-is-gamedepot)
 
