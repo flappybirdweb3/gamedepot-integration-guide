@@ -39,20 +39,20 @@ See the [**Wiki**](https://github.com/ton-play/playdeck-integration-guide/wiki) 
 
 ---
 
-Inside Playdeck, your game runs in an iFrame in our Wrapper.
+Inside GameDepot, your game runs in an iFrame in our Wrapper.
 The process of passing data between your game and our Wrapper is via `window.postMessage`.
 [Window: postMessage() docs](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage)
 
 #### Let's look at an example of listening to messages and processing data from our Wrapper.
 
 ```javascript
-// Creating an event listener playdeck
+// Creating an event listener gamedepot
 window.addEventListener('message', ({ data }) => {
-  if (!data || !data['playdeck']) return;
+  if (!data || !data['gamedepot']) return;
 
-  pdData = data['playdeck'];
+  pdData = data['gamedepot'];
 
-  // By default, playdeck sends "{ playdeck: { method: "play" }}" after pressing the play button in the playdeck-menu
+  // By default, gamedepot sends "{ gamedepot: { method: "play" }}" after pressing the play button in the gamedepot-menu
   if (pdData.method === 'play') { 
     if (runner.crashed && runner.gameOverPanel) {
       runner.restart();
@@ -62,17 +62,17 @@ window.addEventListener('message', ({ data }) => {
     }
   }
   
-  // Getting the playdeck-menu status, after using the getPlaydeckState method
-  if (pdData.method === 'getPlaydeckState') {
-    window.playdeckIsOpen = data.value; // if true, then the playlist is open
+  // Getting the gamedepot-menu status, after using the getGameDepotState method
+  if (pdData.method === 'getGameDepotState') {
+    window.GameDepotIsOpen = data.value; // if true, then the playlist is open
   }
 });
 
 const { parent } = window
 
 const payload = {
-  playdeck: {
-  method: 'getPlaydeckState',
+  gamedepot: {
+  method: 'getGameDepotState',
   },
 };
 
@@ -80,7 +80,7 @@ const payload = {
 parent.postMessage(payload, '*');
 ```
 
-> In your example, we track the event of pressing the "play" button in the playdeck-menu, and also get the result of the [getPlaydeckState](https://github.com/ton-play/playdeck-integration-guide/wiki/2.-Integration-guide#4-exchange-of-information-with-the-wrapper) method.
+> In your example, we track the event of pressing the "play" button in the gamedepot-menu, and also get the result of the [getGameDepotState](https://github.com/ton-play/playdeck-integration-guide/wiki/2.-Integration-guide#4-exchange-of-information-with-the-wrapper) method.
 > Obviously, you can't call the method directly. We have saved the logic of constructing data for messages.
 > For example, you want to use the [`loading`](https://github.com/ton-play/playdeck-integration-guide/wiki/2.-Integration-guide#4-exchange-of-information-with-the-wrapper) method. To do this, you need to create an object with 2 fields: `method`, `value`
 > Where the value of the `method` field will be the name of the method to be called, and the `value` field will be the loading state data.
@@ -89,7 +89,7 @@ parent.postMessage(payload, '*');
 
 ```javascript
 const payload = {
-  playdeck: {
+  gamedepot: {
     method: 'loading',
     value: 100,
   },
@@ -103,8 +103,8 @@ You can find usage examples and detailed information on each method in [our guid
 
 # Contact Us
 
-- Typeform: [submit your game](https://form.typeform.com/to/n0ANU3Qm?typeform-source=tonplay.io)
-- Telegram: [@playdeck_devs](https://t.me/playdeck_devs)
-- Website: [tonplay.io](http://tonplay.io)
-- Our game platform: [PlayDeck](https://t.me/playdeckbot)
+- Flapper.lol: [Register an account & submit your game]([https://flapper.lol)
+- Telegram: [@inotgame](https://t.me/inotgame)
+- Website: [gamedepot.meme](https://gamedepot.meme)
+- Our game platform: [GameDepot](https://t.me/gamedepotmeme)
 
