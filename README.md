@@ -107,6 +107,7 @@ You can find usage examples and detailed information on each method in [our guid
 - Telegram: [@inotgame](https://t.me/inotgame)
 - Website: [gamedepot.meme](https://gamedepot.meme)
 - Our game platform: [GameDepot](https://t.me/gamedepotmeme)
-
+[What Is GameDepot?](#what-is-gamedepot)
 [Going on TOP](#what-is-gamedepot)
+[What Is GameDepot?](#what-is-gamedepot)
 
